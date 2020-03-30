@@ -1,7 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&display=swap');
+:root {
+    --color-main: #ffd234;
+    --color-highlight: #d3468a;
+}
+body::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  body::-webkit-scrollbar-track {
+    background: var(--color-highlight);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background: var(--color-main);
+  }
 
 body {
-    background-color: #ffd234;
+    background-color: var(--color-main);
     font-family: 'Averia Sans Libre', Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin: 0;

@@ -24,9 +24,9 @@ main {
     pointer-events: none;
 }
 .container-calculator {
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .container-logo {

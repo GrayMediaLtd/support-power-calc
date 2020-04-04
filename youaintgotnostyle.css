@@ -26,12 +26,10 @@ body {
     top:0;
     left: 0;
     right: 0;
-    /* display: grid;
-    grid-template-columns: 85% 15%; */
     border-right: 2px solid var(--color-highlight);
 }
 main {
-    width: 75%;
+    width: 85%;
     min-height: 100vh;
 }
 .intro {
@@ -57,7 +55,7 @@ main {
     margin-right: 2px;
 }
 .main-logo {
-    max-width: 300px;
+    max-width: 280px;
     transform: rotate(-90deg) translateY(-70%);
     margin-top: 1rem;
 }
